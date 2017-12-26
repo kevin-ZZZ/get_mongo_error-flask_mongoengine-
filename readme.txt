@@ -1,0 +1,2 @@
+这是一个关于半自动化测试mongo数据库中是否存在值为null的空字段.
+运行环境为python2,使用flask框架运行,中间层使用mongoengine操作mongodb数据库
