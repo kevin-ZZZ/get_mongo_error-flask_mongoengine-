@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Genius系统开发</title>
+    <style  ></style>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+
+    <script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="static/js/index.js">
+    </script>
+
+</head>
+<body>
+
+<div class="outter">
+    <div class="part part1">
+        <p class="word">mongo数据表查询</p>
+    </div>
+    <div class="part part2">
+        <div class="part2_1">
+            <form action="#" ,method="POST">
+                <span class="line">股票代码：</span>
+                <input type="text" class="line line1" value="000001" id="stockcode" name="innoCode">
+                <span class="line">字段名称：</span>
+                <input type="text" class="line line1" value="trade_date" id="field" name="field">
+                <input type="button" value="查询" class="line2" id="query">
+                <div class="err_remind" id="err_remind"></div>
+            </form>
+        </div>
+        <div class="part2_2">
+            <span>概况：</span>
+            <input type="text" class="simplify" id="simplify">
+            <div class="part2_2_1">
+                <span class="content">详情：</span>
+                <textarea name="" id="" cols="80" rows="20" class="textarea" id="content">
+					</textarea>
+            </div>
+        </div>
+    </div>
+    <div class="part part3">
+        <span>股票代码：</span>
+        <input type="text" class="">
+        <span>错误日期：</span>
+        <input type="text">
+        <br/>
+        <div class="dynamic">
+            <div class="static_blank" id="static_blank"></div>
+            <ul id="extend_ul">
+                <span></span>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
